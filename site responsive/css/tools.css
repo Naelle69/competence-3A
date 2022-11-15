@@ -1,0 +1,43 @@
+/* DEBUT BOUTONS */
+.bouton1{
+    background-color: #484526;
+    border-radius:15px 5px 15px 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left:25px;
+    padding-right:25px;
+    color: #ffffff;   
+}
+  
+.bouton1:hover{
+    box-shadow: 1px 1px 6px 6px rgba(222, 162, 105, 0.2);  
+}
+  
+.bouton2{
+    background-color: #D79D66;
+    border-radius:15px 5px 15px 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left:25px;
+    padding-right:25px;
+    color: #484526;    
+}
+  
+.bouton2:hover{
+    box-shadow: 3px 3px 6px 6px rgba(212, 150, 92, 0.2);
+    background-color: #484526;
+    color: #ffffff;
+}
+/* FIN BOUTONS */
+
+
+/* DEBUT CLASS VIDE */
+.vide1{
+    height: 50px;
+  }
+  
+.vide2{
+    height: 150px;
+}
+/* FIN CLASS VIDE */
+  

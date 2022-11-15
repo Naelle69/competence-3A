@@ -1,0 +1,1072 @@
+/* LAPTOP ET DESKTOP */
+@media screen and (min-width:769px) and (max-width:2570px){
+  header{
+    display:flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100vh;
+    margin: 0%;
+    padding: 0%;
+  }
+
+  h1{
+    font-size: 90px;
+  }
+
+  .h2marron{
+    font-size: 50px;
+  } 
+  
+  .h2blanc{
+    font-size: 50px;
+  }
+
+  .h3vert{
+    font-size: 30px;
+  }
+
+  .h3blanc{
+    font-size: 30px;
+  }
+
+  .pgourmet{
+    font-size: 30px;
+  }
+
+  .h4vert{
+    font-size: 16px;
+  }
+  
+  .h4blanc{
+    font-size: 16px;
+  }
+
+  .h4marron{
+    font-size: 16px;
+  }
+  
+  .pastuce{
+    font-size: 16px;
+  }
+
+  .ptexte{
+    font-size: 16px;
+  }
+
+  .ptexte2{
+    font-size: 16px;
+  }
+
+  .h5marron{
+    font-size: 14px;
+  }
+
+  .h5blanc{
+    font-size: 14px;
+  }
+
+  .navbar{
+    display:none
+  }
+
+  .logohomepage{
+    display: none;
+  }
+
+  .contenuhomepage{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+    width: 100%;
+    height: auto;
+    margin-left: 0%;
+    margin-right: 0%;
+    margin-top: 300px; 
+  }
+
+  .offredelasemaine{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    height: 500px;
+    margin-right: 50px;
+    padding: 0%;
+    padding-right: 20px;
+    position: relative;
+    left: -100px;
+    border-radius: 0px 5px 50px 0px;
+    box-shadow: 1px 1px 3px 3px rgba(222, 162, 105, 0.3); 
+  }
+
+  .pokgourmet{
+    width: 50%;
+    height: 500px;
+    margin-right: 100px;
+    margin-left: 50px;
+    justify-content: space-around;
+    align-items: flex-start;
+  }
+
+  .videohompepage{
+    height: 400px;
+    width: 60%;
+    margin-bottom: 0px;
+    border-radius:30px 5px 30px 5px;
+  }
+
+
+  .offre{
+    margin-right: 5%;
+    width: 30%;
+  }
+
+  /* DEBUT NAVBAR WEB */
+  .navbarweb{
+    height: 100px;
+    width: 90%;
+    background-color: #484526;
+    border-radius:30px 5px 30px 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+
+  .navbarweb:hover{
+    box-shadow: 1px 1px 3px 3px rgb(222, 162, 105, 0.2);
+  }
+  
+  .menunav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 500px;
+  }
+
+  .client{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100px;
+  }
+
+  .contentweb{
+    padding:  30px 60px 30px 60px;
+    height: auto;
+    width: 90%;
+    border-radius:30px 5px 30px 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 100px;
+  }
+/* FIN NAVBAR WEB */
+
+/* Main */
+.relative {
+  overflow-x: hidden;
+  margin-top: 150px;
+  padding-right: 200px;
+}
+
+.nosplats{
+  width: 100%;
+  justify-content: center;
+  scroll-snap-type: none; 
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.plat{
+  width: 18%;
+  height: auto;
+  padding: 3%;
+  margin-left: 20px;
+}
+
+.plat img{
+  width: 160px;
+  border-radius: 50%;
+  position: relative;
+  top: -250px;
+  left: 180px;
+  z-index: 1;
+  box-shadow: 2px 2px 3px 3px rgb(215, 157, 102, 0.4);
+}
+
+.plat span{
+  width: 120px; 
+}
+
+.plat span .h4vert{
+  font-size: 16px;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+.plat span .ptexteplat{
+  font-size: 16px; 
+}
+
+
+/* Nos extras */
+.extras{
+  margin-left: 100px;
+}
+.nosextras{
+  height: 24rem;
+  background-position: center;
+}
+
+.infos{
+  background-color: #62615C;
+  padding: 2%;
+  width: 500px;
+  height: auto;
+  position: relative;
+  top: 100px;
+  left: 100px;
+  border-radius: 15px;
+}
+
+.pic-ctn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.pic-ctn > .img {
+  width: 180px;
+}
+
+.image1{
+  justify-content: center;
+  align-items: center;
+}
+
+.image2{
+  justify-content: center;
+  align-items: center; 
+  position: relative;
+  top: -40px;
+}
+
+.image3{
+  position: relative;
+  top: -70px;
+}
+
+#img1{
+  border-radius: 50%;
+  box-shadow: 2px 2px 3px 3px rgb(215, 157, 102, 0.4);
+}
+#img2{
+  border-radius: 50%;
+  box-shadow: 2px 2px 3px 3px rgb(215, 157, 102, 0.4);
+}
+
+#img3{
+  border-radius: 50%;
+  box-shadow: 2px 2px 3px 3px rgb(215, 157, 102, 0.4);
+}
+
+/* nos idées recettes */
+
+.titrerecettes{
+  margin-top: 230px;
+  width: 65%;
+  margin-left: 100px;
+}
+
+.nosideesrecettes{
+  padding-left: 10px;
+  padding-right: 10px;
+  width: auto;
+  margin-left: 200px;
+  margin-right: 200px;
+  margin-top: 50px;
+}
+
+.recettes{
+  width: 480px;
+  height: 600px;
+}
+
+/* .texterecettes{
+  font-size: 16px;
+} */
+
+.ideetext{
+  position: relative;
+  top: 130px;
+/*   font-size: 16px; */
+}
+
+.imagerecette{
+  width: 180px;
+  border-radius: 50%;
+  position: relative;
+  left: 100px;
+}
+
+/* promotion */
+.exclusivite{
+  padding: 4%;
+  width: 40%;
+  height: auto;
+}
+
+.promotion{
+  margin-left: 100px;
+  margin-right: 100px;
+  justify-content: center;
+}
+
+.galleryimages{
+  width: 80%;
+}
+
+.gallerie6{
+  border-radius:50px 0px 0px 0px;
+}
+
+.gallerie1{
+  border-radius:0px 0px 0px 10px;
+}
+
+.gallerie2{
+  border-radius:0px 10px 0px 0px;
+}
+
+.gallerie3{
+  border-radius:0px 0px 50px 0px;
+}
+
+/* SCROLL AVIS */
+.nosavis{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 5%;
+}
+
+.avis{
+  width: 400px;
+  height: 300px;
+  padding: 2%;
+  margin: 0%;
+}
+
+.icones{
+  width: 85%;
+  height: 100px;
+  position: relative;
+  top: -65px;
+}
+
+.iconesavis1{
+  width: 50px;
+}
+
+/* Astuces éco */
+.gradient{
+  width: 100%;
+  height: 400px;
+  padding: 0%;
+}
+
+.block1{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+
+/* Formulaire de contact */
+.form{
+  display: flex;
+  align-items: center;
+}
+
+.contacteznous{
+  margin-bottom: 100px;
+}
+
+.contacteznous .h2marron{
+  margin-left: 100px;
+  margin-top: 100px;
+  margin-bottom: 200px;
+}
+
+.formulaire{
+  width: 60%;
+  height: auto;
+  padding: 2%;
+  padding-right: 5%;
+  margin-left: 100px;
+  margin-top: 60px;
+}
+
+.map iframe{
+  height: 400px;
+  width: 600px;
+  position: relative;
+  left: -290px;
+  top: -40px;
+  z-index: 1;
+  align-items: center;
+}
+
+/* Nos avantages */
+.avantages{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.imageavantages{
+  border: solid 2px rgb(72,69,38);
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.iconesavantages{
+  width: 60px;
+  height: 60px;
+}
+
+
+/* Footer */
+.conteneurprincipal{
+  display: flex;
+  flex-direction: column;
+}
+
+.conteneur1{
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  margin: 100px;
+  padding-left: 300px;
+}
+
+.contacts-mentions{
+  display: flex;
+  column-gap: 50px;
+  text-align: start;
+}
+.contactez-nous h4{
+  margin-bottom: 50px;
+}
+
+.footerlogo{
+  transform: translateX(-200px);
+  width: 150px;
+}
+
+.lentreprise{
+  align-items: flex-start;
+  width: auto;
+} 
+
+.lentreprise2{
+  transform: translateY(-80px) ;
+  justify-content: flex-start;
+  width: auto;
+}
+
+.lentreprise3{
+  transform: translateY(40px); 
+  justify-content: flex-start;
+}
+
+.lentreprise3 .nouscontacter{
+  justify-content: flex-start;
+}
+
+.newsletters{
+  padding: 10%;
+  margin: 0%;
+}
+
+.newsletters1{
+  align-self: start;
+  justify-content: flex-start;
+}
+
+/* .newsletters .h3blanc{
+  letter-spacing: 2px;
+} */
+
+.container .grid{
+  width: 100%;
+}
+
+.imagefooter{
+  border-radius:30px 5px 30px 5px;
+  box-shadow: 2px 2px 4px 4px rgba(22, 22, 22, 0.2);
+}
+}
+
+
+
+/* Tablette */
+@media screen and (min-width:481px) and (max-width:768px){
+    header{
+      width: 100%;
+      height: 810px;
+      margin: 0%;
+      padding: 0%;
+      background-color: #62615C;
+    }
+  
+    h1{
+      font-size: 50px;
+      margin-bottom: 40px;
+    }
+  
+    .h2marron{
+      font-size: 25px;
+    }  
+
+    .pgourmet{
+      font-size: 20px
+    }
+
+    .navbar{
+      display:none
+    }
+    
+    .logohomepage{
+      display: none;
+    }
+  
+     /* début homepage tablette */
+     .navbarweb{
+      height: 80px;
+      width: 90%;
+      background-color: #484526;
+      border-radius:30px 5px 30px 5px;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      align-items: center;
+      margin-left: 5%;
+      margin-right: 5%;
+    }
+  
+    .navbarweb:hover{
+      box-shadow: 1px 1px 3px 3px rgb(222, 162, 105, 0.2);
+    }
+    
+    .navbarlogo{
+      width: 60px;
+    }
+
+    .menunav{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      width: 450px;
+    }
+  
+    .client{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      width: 60px;
+    }
+  
+    .contentweb{
+      padding:  30px 60px 30px 60px;
+      height: auto;
+      width: 90%;
+      border-radius:30px 5px 30px 5px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-right: 100px;
+    }
+
+    .contenuhomepage{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 100%;
+      height: 600px;
+      margin-left: 0%;
+      margin-right: 0%;
+      margin-top: 120px; 
+    }
+  
+    .offredelasemaine{
+      display: flex;
+      flex-direction: row-reverse;      
+      justify-content: space-evenly;
+      align-items: center;
+      width: 80%;
+      height: 350px;
+      border-radius: 0px 5px 50px 0px;
+      position: relative;
+      left: -120px;
+      padding: 50px;
+    }
+
+    .offre{
+      margin-left: 20px;
+      margin-right: 20px;
+    }
+
+    .videohompepage{
+      width: 50%;
+      height: 100%;
+    }
+  
+    .pokgourmet{
+      width: 90%;
+      height: 350px;
+      display: flex;
+      align-items:flex-start;
+      margin-left: 0%;
+      margin-top: 5%;
+    }
+
+    /* .pokgourmet .mb-5{
+      margin-bottom: 10px;
+    } */
+  
+   
+
+/* Main */
+
+/* début section nos plats tablette */
+.nosplats .offres{
+  padding-left: 20px;
+}
+
+.nosplats{
+  width: 100%;
+  margin: 0%;
+  padding: 0%;
+  justify-content: center;
+}
+
+.plat{
+  background-image: url("../image/fondblanc.svg");
+  width: 35%;
+  height: auto;
+  margin-right: 80px;
+  padding: 0%;
+  background-repeat: no-repeat;
+  padding: 6%;
+}
+
+.plat img{
+  width: 130px;
+  border-radius: 50%;
+  position: relative;
+  top: -190px;
+  left: 150px;
+  z-index: 1;
+  box-shadow: 2px 2px 3px 3px rgb(215, 157, 102, 0.4);
+}
+
+
+/* début section nos extras tablette */
+.extras{
+  padding-left: 20px;
+}
+
+.extras .h3vert{
+  margin-bottom: 70px;
+}
+
+.nosextras{
+  height: 20rem;
+  background-position: center;
+}
+
+.infos{
+  background-color: #62615C;
+  padding: 2%;
+  width: 400px;
+  height: auto;
+  position: relative;
+  top: 70px;
+  left: 100px;
+  border-radius: 15px;
+}
+
+.pic-ctn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.pic-ctn > .img {
+  width: 150px;
+}
+
+.image1{
+  justify-content: center;
+  align-items: center;
+}
+
+.image2{
+  justify-content: center;
+  align-items: center; 
+  position: relative;
+  top: -40px;
+}
+
+.image3{
+  position: relative;
+  top: -70px;
+}
+
+#img1{
+  border-radius: 50%;
+  box-shadow: 2px 2px 3px 3px rgb(215, 157, 102, 0.4);
+}
+#img2{
+  border-radius: 50%;
+  box-shadow: 2px 2px 3px 3px rgb(215, 157, 102, 0.4);
+}
+
+#img3{
+  border-radius: 50%;
+  box-shadow: 2px 2px 3px 3px rgb(215, 157, 102, 0.4);
+}
+
+
+/* début section nos extras tablette */
+.titrerecettes{
+  margin-top: 150px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.nosideesrecettes{
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+/* promotion */
+.exclusivite{
+  padding: 4%;
+  width: 55%;
+  height: auto;
+}
+
+.exclusivite .h2marron{
+  font-size: 14px;
+}
+
+.exclusivite .h2vert{
+  font-size: 14px;
+}
+
+.promotion{
+  margin-left: 20px;
+  margin-right: 20px;
+  justify-content: center;
+}
+
+.container{
+  padding: 0%;
+  width: 100%;
+} 
+
+.gallerie6{
+  border-radius:40px 0px 0px 0px;
+}
+
+.gallerie1{
+  border-radius:0px 0px 0px 10px;
+}
+
+.gallerie2{
+  border-radius:0px 10px 0px 0px;
+}
+
+.gallerie3{
+  border-radius:0px 0px 40px 0px;
+}
+
+/* SCROLL AVIS */
+.nosavis{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding-top:8%;
+  padding-bottom: 5%;
+  padding-left: 120px;
+  padding-right: 20px;
+}
+
+.cercleavis{
+  width: 50px;
+  height: 50px; 
+}
+
+.avis{
+  width: 260px;
+  height: 200px;
+  padding: 2%;
+}
+
+.icones{
+  top: -33px;
+}
+
+.iconesavis1{
+  width: 40px;
+}
+
+.iconesavis2{
+  width: 50px;
+  top: -38px;
+}
+
+
+/* EXCLUSIVITE */
+/* .exclusivite{
+  padding: 10%;
+  width: 75%;
+  height: 50%;
+} */
+
+/* SCROLL AVIS */
+/* .nosavis{
+  padding-top:5%;
+  padding-bottom: 5%;
+  margin-bottom: 15%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.avis{
+  width: 230px;
+  height: 200px;
+}
+
+.icones{
+  width: 85%;
+  height: 100px;
+}
+
+.iconesavis1{
+  width: 50px;
+}
+
+.iconesavis2{
+  position: relative;
+  top: -75px;
+  width: 60px;
+} */
+
+/* Avantages */
+/* .avantages{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.icones2{
+  width: 114px;
+  text-align: center;
+}
+
+.imageavantages{
+  border: solid 2px rgb(72,69,38);
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.iconesavantages{
+  width: 36px;
+  height: 36px;
+} */
+
+/* FOOTER*/
+
+.contacts-mentions{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  width: 100%;
+  margin: 0%;
+  text-align: start;
+}
+
+/* FOOTER */
+.footerlogo{
+  width: 40px;
+  justify-content:flex-start;
+}
+
+.lentreprise{
+  text-align: start;
+  width: auto;
+}
+
+.contactez-nous{
+  text-align: start;
+  width: 26%;
+}
+
+.nouscontacter{
+  text-align: start;
+  justify-content: flex-start;
+}
+
+.mentionslegales{
+  width: 30%;
+}
+
+.container .grid{
+  display: flex;
+  flex-direction: row;
+  width: 90%;
+}
+
+.imagefooter{
+  border-radius:15px 2px 15px 2px;
+  box-shadow: 2px 2px 4px 4px rgba(22, 22, 22, 0.2);
+}
+}
+
+
+ 
+
+
+/* MOBILE */
+@media screen and (min-width: 320px) and (max-width:480px){
+  .pgourmet{
+    display: none; 
+  }
+
+  .contentweb{
+    display: none;
+  }
+
+  .navbarweb{
+    display:none;
+  }
+
+  .vide2{
+    display: none;
+  }
+
+  .navlogo{
+    display: none;
+  }
+
+    /* carousel nos extras */
+@keyframes display {
+  0% {
+    transform: translateX(200px);
+    opacity: 0;
+  }
+  10% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+  20% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+  30% {
+    transform: translateX(-200px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(-200px);
+    opacity: 0;
+  }
+}
+
+.pic-ctn {
+  position: relative;
+  top:-190px ;
+  left: 40px;
+  width: 25vw;
+  height: 75px;
+  margin-top: 15vh;
+  border-radius: 25%;
+}
+
+.pic-ctn > .img {
+  position: absolute;
+  top: 0;
+  width: 130px;
+  left: calc(50% - 100px);
+  opacity: 0;
+  animation: display 10s infinite;
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+}
+
+.pic-ctn img{
+    border-radius: 50%;
+}
+.img:nth-child(2) {
+  animation-delay: 2s;
+}
+.img:nth-child(3) {
+  animation-delay: 4s;
+}
+.img:nth-child(4) {
+  animation-delay: 6s;
+}
+.img:nth-child(5) {
+  animation-delay: 8s;
+}
+  /* fin carousel nos extras */
+
+.nosplats{
+  overflow-x:auto;
+}
+
+.grid{
+  display: none;
+} 
+
+.gallerypromotion{
+  display: none;
+}
+
+/* footer */
+
+.imagesfooter{
+  display:none;
+}
+
+} 

@@ -1,0 +1,456 @@
+
+/* Set the background color of body to tan */
+body {
+  background-color: rgb(255, 255, 255);
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 1px;
+  margin: 0px;
+  padding: 0px;
+}
+
+header{
+  background-color: #62615C;
+  width: 100%;
+  height: 770px;
+}
+
+/* Début NAVBAR  */
+.navbar{
+  padding:80px 5px 80px 5px;
+  height:80vh;
+  width: 40px;
+  background-color: #484526;
+  border-radius: 15px 5px 15px 5px;
+  top: 10vh;
+  left:2%;
+  z-index: 5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+} 
+
+.navbar:hover{
+  box-shadow: 1px 1px 3px 3px rgb(222, 162, 105, 0.2);
+}
+
+.contentmobile {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  height: 450px;
+  }
+
+.client{
+  height: 80px;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+}
+
+.contactnavigation{
+  height: 160px;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+}
+
+/* Style the content */
+.contenuhomepage{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  position:absolute;
+  top: 32px;
+}
+
+.offredelasemaine{
+  background-color: #ffffff;
+  border-radius:50px 5px 0px 0px;
+  padding: 1rem;
+  /* position:absolute;
+  top: 20px; */
+  padding-bottom: 15%;
+}
+
+.videohompepage{
+  border-radius:50px 5px 50px 5px;
+  box-shadow: 1px 1px 3px 3px rgba(222, 162, 105, 0.5); 
+  width: 97%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.offre{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.pokgourmet{
+  height: auto;
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+main{
+  height: auto;
+  width: 100%;
+}
+
+
+.h{
+
+}
+
+.relative {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.plat{
+  background-image: url("../image/fondblanc.svg");
+  width: 70%;
+  height: 300px;
+  background-repeat: no-repeat;
+  padding: 15%;
+  margin-right: 50px;
+}
+
+.plat img{
+  border-radius: 50%;
+  position: relative;
+  top: -180px;
+  left: 150px;
+  z-index: 1;
+  box-shadow: 2px 2px 3px 3px rgb(215, 157, 102, 0.4);
+}
+
+.ptexteplat{
+  width: 80%;
+}
+
+
+/* Section Nos extras */
+
+.nosextras{
+  background-image:url("../image/fond\ vert.svg");
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.infos{
+  background-color: #62615C;
+  padding: 5%;
+  position: relative;
+  top:-10px ;
+  border-radius: 5%; 
+  box-shadow: 2px 2px 3px 3px rgb(215, 157, 102, 0.2);
+}
+
+.infos .flex {
+  color: #ffffff;
+  flex-direction: column;
+  justify-content: space-between;
+}
+/* Fin Section son extras */
+
+
+/* Début Nos idées recettes */
+.nosideesrecettes{
+  padding-bottom: 5%;
+}
+
+.recettes{
+  background-image: url(../image/grandfond.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 230px;
+  height: 350px;;
+  padding: 3%;
+}
+
+.recettes:hover{ 
+  background-image: url(../image/grandfondvert.svg);
+  background-position: center;
+}
+
+/* .ideetext{
+  position: relative;
+  top: 90px;
+  right: 10px;
+} */
+
+.ideetext .h4vert:hover{
+  color:#D79D66
+}
+
+
+.imagerecette{
+  width: 120px;
+  border-radius: 50%;
+  position: relative;
+  left: 30px;
+}
+
+
+/* EXCLUSIVITE */
+.exclusivite{
+  background-color: #ffffff;
+  border-radius: 50px 5px 50px 5px;
+  box-shadow: 3px 3px 5px 5px rgb(215, 157, 102, 0.2);
+  flex-direction: column;
+  padding: 5%;
+  width: 100%;
+  height: auto;
+}
+
+
+/* SCROLL AVIS */
+.nosavis{
+  padding-top:17%;
+  padding-bottom: 5%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cercleavis{
+  border: solid 2px rgb(72,69,38);
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.avis{
+  width: 65%;
+  height: 240px;
+  background-color: #ffffff;
+  border: solid 1px #D79D66;
+  border-radius: 30px 5px 30px 5px;
+  padding: 5%;
+  justify-content: center;
+  align-items: center;
+}
+
+.icones{
+  width: auto;
+  display: flex;
+  flex-direction:row;
+  justify-content:space-evenly;
+  position: relative;
+  top: -52px;
+}
+.iconesavis1{
+  width: 36px;
+}
+
+.iconesavis2{
+  position: relative;
+  top: -40px;
+  width: 70px;
+  height: 70px;
+}
+
+/* section Astuce Eco */
+
+.gradient {
+  width: 100%;
+}
+
+.gradient{
+  width: 100%;
+  height: auto;
+  background: rgb(72,69,38);
+  background: linear-gradient(90deg, rgba(72,69,38,1) 0%, rgba(215,157,102,1) 50%, rgba(98,97,92,1) 100%);
+  align-items: center;
+  padding: 15%;
+  margin: 0%;
+}
+
+/* Nous contacter */
+.contacteznous{
+  justify-content: center;
+}
+
+.formulaire{
+  border: solid 2px  rgb(72,69,38);
+  border-radius: 30px 5px 30px 5px;
+  width: 100%;
+  padding: 5%;
+}
+
+.map iframe{
+  border-radius: 30px 5px 30px 5px;
+  box-shadow: 3px 3px 5px 5px rgb(215, 157, 102, 0.3);
+  height: auto;
+}
+
+/* Nos avantages */
+
+.avantages{
+  height: auto;
+  width: auto;
+}
+
+.avantages1{
+  height: auto;
+  width: auto;
+}
+
+.icones2{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: auto;
+  width: auto;
+  margin-bottom: 40px;
+}
+
+.icones2{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.imageavantages{
+  border: solid 2px rgb(72,69,38);
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.iconesavantages{
+  width: 36px;
+  height: 36px;
+}
+
+/* PAGE NOTRE BLOG CONSEILS */
+
+.notreblog{
+  margin-left: 15%;
+  margin-right: 10%;
+}
+
+.nosconseils{
+  width: 50%;
+  height: auto;
+  margin-top: 5%;
+}
+
+.grid{
+  width: 30%;
+  height: auto;
+  /* display:flex; */
+  align-items:flex-end;
+  margin-left: 5%;
+}
+
+.lavage4{
+  border-radius: 30px 5px 30px 5px;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+.lavage{
+  display: flex;
+  flex-direction: row;
+}
+
+.lavage1{
+  width: 310px;
+  height: 160px;
+  margin: 5px;
+  border-radius: 30px 5px 0px 0px;
+}
+
+.lavage2{
+  width: 150px;
+  height: 230px;
+  margin: 5px;
+}
+
+.lavage3{
+  width: 310px;
+  height: 160px;
+  margin: 5px;
+  border-radius: 0px 0px 30px 5px;
+}
+
+.conseils{
+  width: 100%;
+  height: auto;
+  display:flex;
+  flex-direction: row;
+}
+
+.texteconseils{
+  margin-top: 5%;
+}
+
+.conseil0{
+  width: 70%;
+  height: auto;
+}
+
+.conseil1{
+  margin-top: 5%;
+}
+
+
+
+/* Début Footer */
+footer{
+  background-color: rgb(72, 69, 38);
+}
+
+.newsletters1{
+  display: flex;
+  justify-content: center;
+}
+
+.newsletters{
+  border-radius: 50px 5px 50px 5px;
+  box-shadow: 3px 3px 5px 5px rgba(22, 22, 22, 0.15);
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 10%;
+}
+
+.lentreprise {
+  align-items: center;
+  flex-direction: column;
+}
+
+.footerlogo{
+  width: 100px;
+}
+
+.copyright{
+  color:#D79D66
+}
+
+.nouscontacter{
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+  width: auto;
+}

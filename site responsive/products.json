@@ -1,0 +1,27 @@
+{   
+    "products": 
+    [ 
+        { 
+        "id":1,
+        "soustitre": "Comment laver ses légumes?",
+        "texte": "La peau des légumes est riche en vitamines et minéraux mais aussi en bactéries et parfois en pesticides. Pour se débarrasser de toute contamination possible et toute substance mauvaise pour la santé, il convient donc de bien les nettoyer. Pour savoir comment laver les légumes sans perdre leurs qualités nutritionnelles.",
+        "image": "image/LAVAGEDELEGUMES1.jpg",
+        "button": "Suivez le guide"
+        
+        },
+        { 
+        "id":2,
+        "soustitre": "Comment conserver ses légumes?",
+        "texte": "La peau des légumes est riche en vitamines et minéraux mais aussi en bactéries et parfois en pesticides. Pour se débarrasser de toute contamination possible et toute substance mauvaise pour la santé, il convient donc de bien les nettoyer. Pour savoir comment laver les légumes sans perdre leurs qualités nutritionnelles.",
+        "image": "image/conserverseslegumes.png",
+        "button": "Suivez le guide"
+        }, 
+        { 
+        "id":3,
+        "soustitre": "Comment gagner du temps en cuisine?",
+        "texte": "La peau des légumes est riche en vitamines et minéraux mais aussi en bactéries et parfois en pesticides. Pour se débarrasser de toute contamination possible et toute substance mauvaise pour la santé, il convient donc de bien les nettoyer. Pour savoir comment laver les légumes sans perdre leurs qualités nutritionnelles.",
+        "image": "image/cuisine.jpg",
+        "button": "Suivez le guide"
+        } 
+    ]
+}

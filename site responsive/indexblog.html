@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Tailwind elements</title>
+    <!-- Favicon -->
+    <link rel="icon" href="img/mdb-favicon.ico" type="image/x-icon" />
+    <!-- Inter font -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <!-- Tailwind -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Tailwind Elements CSS -->
+    <link rel="stylesheet" href="css/index.min.css" />
+    <link rel="stylesheet" href="css/style.css"/>
+    <link rel="stylesheet" href="css/typo.css"/>
+    <link rel="stylesheet" href="css/tools.css"/>
+    <link rel="stylesheet" href="css/mediasqueries.css">
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <!-- Custom styles -->
+
+    <style></style>
+  </head>
+
+    <body>
+      <div id="app" class="notreblog">
+
+        <div class="nosconseils">
+          <h2 class="h2marron">Notre blog conseils</h2>
+
+          <div v-for="product in products">
+            <div  class="texteconseils">
+              <h3 class="h3vert">{{product.soustitre}}</h5>
+              <p class="ptexte">{{product.texte}}</p>
+              <img class="lavage4" :src=`${product.image}`>
+            </div>
+            
+            <p class="mb-4">
+              <button class="ptexte inline-block  leading-tight uppercase  focus:ring-0 transition duration-150 ease-in-out" type="button" data-bs-toggle="collapse" data-bs-target="#collapseWidthExample" aria-expanded="false" aria-controls="collapseWidthExample">
+              {{product.button}} </button>
+            </p>
+            <div style="min-height: 120px">
+              <div class="collapse collapse-vertical" id="collapseWidthExample">
+                <div class="conseils block">
+                  <div class="conseil0">
+                    <div class="conseil1">
+                      <h3 class="h3vert">Laver plutôt qu'épulcher</h3>
+                      <p class="ptexte">
+                        Certains légumes primeurs ne s'épluchent pas (carottes, navets, petites pommes de terre) et un lavage soigneux avec une brosse spéciale est suffisant. Garder l'épluchure a l'avantage aussi de préserver les qualités nutritionnelles de l'aliment.
+                        Dans la mesure du possible, privilégiez l'achat de légumes biologiques qui sont exempts de pesticides mais même dans ce cas, il convient de les débarrasser de la poussière et d'une partie des germes présents sur leur surface en les nettoyant. Même si vos légumes vous paraissent propres et sans terre, passez les sous l'eau courante, sans savon et brossez-les.
+                        Nettoyez aussi les légumes dont vous ne mangez pas la peau ou l'écorce car la chair peut être contaminée par les germes lors de la découpe.
+                        Attention à ne pas laisser tremper vos légumes pendant des heures dans l'eau. Ils perdraient ainsi une bonne partie des sels minéraux et des vitamines qu'ils contiennent.
+                      </p>
+                    </div>
+                
+                    <div class="conseil1">
+                      <h3 class="h3vert">Quelques règles particulières</h3>
+                      <p class="ptexte">
+                          Certains légumes primeurs ne s'épluchent pas (carottes, navets, petites pommes de terre) et un lavage soigneux avec une brosse spéciale est suffisant. Garder l'épluchure a l'avantage aussi de préserver les qualités nutritionnelles de l'aliment.
+                          Dans la mesure du possible, privilégiez l'achat de légumes biologiques qui sont exempts de pesticides mais même dans ce cas, il convient de les débarrasser de la poussière et d'une partie des germes présents sur leur surface en les nettoyant. Même si vos légumes vous paraissent propres et sans terre, passez les sous l'eau courante, sans savon et brossez-les.
+                          Nettoyez aussi les légumes dont vous ne mangez pas la peau ou l'écorce car la chair peut être contaminée par les germes lors de la découpe.
+                          Attention à ne pas laisser tremper vos légumes pendant des heures dans l'eau. Ils perdraient ainsi une bonne partie des sels minéraux et des vitamines qu'ils contiennent.
+                      </p>
+                    </div>
+        
+                    <div class="conseil1">
+                      <h3 class="h3vert">Astuces de grands mères: Bicarbonnate de soude</h3>
+                      <p class="ptexte">
+                          Notez que pour nettoyer plus efficacement vos légumes, le bicarbonate de soude est un bon allié. Dans un litre d'eau, ajoutez une cuillère à soupe de bicarbonate. Laissez tremper vos légumes quelques minutes, rincez. Le tour est joué !
+                          Vous pouvez procéder autrement en saupoudrant un linge propre de ce produit, en frottant vos légumes à la surface puis en rinçant.
+                      </p>
+                    </div>
+                  </div>  
+           
+                  <div class="grid">
+                    <div class="imageslavage">
+                      <img src="image/LEGUMES1.jpg" class="lavage1" alt="">
+                      <div class="lavage">
+                        <img src="image/lavagelegume.jpg" class="lavage2" alt="">
+                        <img src="image/lavagelegumes2.jpg" class="lavage2" alt="">
+                      </div>
+                      <img src="image/LAVAGEDELEGUMES2.jpg" class="lavage3" alt="">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div> 
+          </div>
+        </div>
+
+        
+
+       <!--  <div class="notreblog">
+          <div class="nosconseils">
+            <div class="texteconseils">
+              <h3 class="h3vert">Comment conserver ses légumes?</h3>
+              <p class="ptexte">
+                La peau des légumes est riche en vitamines et minéraux mais aussi en bactéries et parfois en pesticides. Pour se débarrasser de toute contamination possible et toute substance mauvaise pour la santé, il convient donc de bien les nettoyer. Pour savoir comment laver les légumes sans perdre leurs qualités nutritionnelles.
+              </p>
+            </div>
+            <img class="lavage4" src="image/conserverseslegumes.png" />
+          </div>
+           
+          <p class="mb-4">
+            <button class="ptexte inline-block  leading-tight uppercase  focus:ring-0 transition duration-150 ease-in-out" type="button" data-bs-toggle="collapse" data-bs-target="#collapseWidthExample" aria-expanded="false" aria-controls="collapseWidthExample">
+             Suivez le guide
+            </button>
+          </p>
+        </div>
+
+        <div class="notreblog">
+          <div class="nosconseils">
+            <div class="texteconseils">
+              <h3 class="h3vert">Comment gagner du temps en cuisine?</h3>
+              <p class="ptexte">
+                La peau des légumes est riche en vitamines et minéraux mais aussi en bactéries et parfois en pesticides. Pour se débarrasser de toute contamination possible et toute substance mauvaise pour la santé, il convient donc de bien les nettoyer. Pour savoir comment laver les légumes sans perdre leurs qualités nutritionnelles.
+              </p>
+            </div>
+            <img class="lavage4" src="image/cuisine.jpg" />
+          </div>
+           
+          <p class="mb-4">
+            <button class="ptexte inline-block  leading-tight uppercase  focus:ring-0 transition duration-150 ease-in-out" type="button" data-bs-toggle="collapse" data-bs-target="#collapseWidthExample" aria-expanded="false" aria-controls="collapseWidthExample">
+             Suivez le guide
+            </button>
+          </p>
+        </div> -->
+      </div>
+ 
+  <script type="text/javascript" src="js/index.min.js"></script>
+  <script src="js/main.js"></script>
+  <!-- Custom scripts -->
+  <script type="text/javascript"></script>
+  </body> 
+</html>   
+      
